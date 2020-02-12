@@ -33,11 +33,11 @@ while True:
         print("processing.....")
         time.sleep(1)
         print("Congragulations! Your guess is correct ! ")
-        print(" ")
+        print("Press 'q' to exit. ")
         time.sleep(20)
         break
     if(guess==0):
             print("You failed :( You are out of guesses..  THE NUMBER WAS:",random_number)
-            print(" ")
+            print("Press 'q' to exit. ")
             time.sleep(20)
             break
